@@ -1,1 +1,11 @@
+[Unit]
+Description=USB Gadget
+DefaultDependencies=true
 
+[Service]
+Type=simple
+ExecStart=/home/pi/usbfs/gadget
+WorkingDirectory=/home/pi/usbfs/
+
+[Install]
+WantedBy=local-fs.target
