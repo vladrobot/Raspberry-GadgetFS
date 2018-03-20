@@ -1,1 +1,6 @@
-
+[Desktop Entry]
+Type=Application
+Name=USB Gadget
+Exec= python3 /home/pi/usbfs/main.py
+StartupNotify=true
+Terminal=false
